@@ -10,9 +10,18 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/swagatika-mohapatra-411b32239'
+
+- type: discord
+  icon: 'fa-brands fa-discord'   # icons powered by <https://fontawesome.com/>
+  url:  'https://discord.com/users/1092296260523925585'
+
+- type: instagram
+  icon: 'fa-brands fa-instagram'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.instagram.com/swagatika3009'
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
