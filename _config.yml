@@ -37,8 +37,8 @@ social:
   email: mswagatika3009@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/Swag3009 # change to your twitter homepage
     - https://github.com/Swag3009 # change to your github homepage
+    - https://twitter.com/Swag3009 # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -46,7 +46,7 @@ social:
 google_site_verification: # fill in to your verification string
 
 # ↑ --------------------------
-# The end of `jekyll-seo-tag` settings
+# The end of `jekyll-seo-tag` settingsxo
 
 google_analytics:
   id: # fill in your Google Analytics ID
