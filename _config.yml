@@ -14,9 +14,9 @@ timezone: Asia/Kolkata
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Cipher # the main title
+title: Swagatika # the main title
 
-tagline: By Swagatika Mohapatra # it will display as the sub-title
+tagline: Digital Alchemist - Turning Logic into Reality # it will display as the sub-title
 
 description: >- #Cipher: Unveiling the essence of literature, code, and life through insightful book summaries, coding escapades, and occasional personal musings, curated by Swagatika.
 
@@ -75,7 +75,7 @@ theme_mode: # [light | dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "assets/img/favicons/android-chrome-384x384.png"
+avatar: "assets/img/profile/profilePic.jpeg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
