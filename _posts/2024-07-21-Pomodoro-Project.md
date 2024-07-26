@@ -1,6 +1,6 @@
 ---
 title: My first react project - Pomodoro Timer
-description: 'From Concept to Code  How I Built My First React Project A Pomodoro Timer'
+description: 'From Concept to Code: How I Built My First React Project - A Pomodoro Timer'
 date: 2024-07-21
 categories: [Programming, Projects]
 tags: [React, Javascript, Projects, Learning, Coding]
@@ -9,15 +9,6 @@ image:
  path: "../assets/post_img/pomodoro.png"
  alt: Pomodoro Timer
 ---
-<!-- Structure
-Introduction
-Project description
-Learning and Development Process
-Challenges and Solutions
-Key Learnings
-Project Outcomes
-Conclusion
---> 
 
 In this blog post, I will share my journey of building a Pomodoro Timer using React, detailing the experiences, challenges, and key learnings that shaped my first React project.
 
@@ -188,8 +179,8 @@ Despite its simplicity and seemingly insignificant functionalities, this project
 
 You can check out the live version of my Pomodoro Timer and explore the code on GitHub using the links below:
 
--  Live Project: [Pomodoro Timer Live](https://github.com/Swag3009/pomo_timer)
--  GitHub Repository: [Pomodoro Timer Code](https://swag3009.github.io/pomo_timer/)
+-  Live Project: [Pomodoro Timer Live](https://swag3009.github.io/pomo_timer/)
+-  GitHub Repository: [Pomodoro Timer Code](https://github.com/Swag3009/pomo_timer)
 
 Here's a video demonstration of the project:
-{% include embed/youtube.html id = 'XIhDponroRM'%}
+{% include embed/video.html src = '../assets/post_img/pomodoro.webm' %}
