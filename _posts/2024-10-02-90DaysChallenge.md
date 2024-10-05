@@ -10,13 +10,15 @@ image:
  alt: 90-Days Challenge
 ---
 ## Introduction 
-Life should be about continuous growth. No matter how much time we spend procrastinating, resting, or feeling stuck, real happiness comes from the satisfaction of pushing boundaries and doing better. True happiness is the sense of victory you feel after overcoming a challenge. The harder the struggle, the greater the satisfaction in winning that battle. That’s how life works. We often get depressed when we procrastinate on our goals and focus on temporary fixes instead of solving problems at their root. 
+Life is about continuous growth. We often waste time procrastinating or resting, believing it’s okay to delay our progress, but real happiness comes from the satisfaction of doing better and pushing our limits. It’s the victory after overcoming challenges that brings true joy. The harder the battle, the more fulfilling the win.
 
-I’ve always known this, but I never acted on it. Knowledge is merely potential power—it won’t bear any fruit until you put it into action. Now, it’s finally time for me to act.
+But when we constantly procrastinate, avoid our goals, and chase temporary fixes, we end up feeling stuck and unhappy. We become frustrated because, deep down, we know we’re not addressing the real issues.
+
+I’ve always understood this, but I never acted on it. Knowing something isn't enough—knowledge is just potential power. It's only when you put that knowledge into action that it becomes truly valuable. Now, it’s time to act, to stop waiting and start building the life I want.
 
 ### Why 90-Days Challenge?
 
-These 90 days are all about regaining the confidence I once had. Rather than being completely affected by the outside world, I want to gain control over my inner self. I’m on a journey to become someone I can be proud of, instead of always feeling like I’m not enough. I want to transform into the person I admire—a version of myself that I’ll be proud to be. With a problem-solving mindset and a positive attitude, this challenge is about becoming a better, stronger me.
+These 90 days are all about regaining the confidence I once had. Rather than being completely affected by the outside world, I want to gain control over my inner self. I want to transform into the person I admire—a version of myself that I’ll be proud to be. With a problem-solving mindset and a positive attitude, this challenge is about becoming a better, stronger me.
 
 ## Problems I Want to Solve
 
@@ -27,7 +29,7 @@ No matter how much we try to escape our problems, true victory comes from adopti
 
 3. **Inability to Keep Promises :** *Breaking promises has become a habit, whether to myself or to others. I not only fail to keep them but often forget them altogether. This makes me someone who can’t stand by her word, which is something I deeply dislike. Integrity matters to me, and failing to keep promises makes me look down on myself.*
 
-4. **Addiction to Devices and Lack of Self-Control :** *It’s become so easy to get a dopamine hit through technology, but it weakens our ability to focus on hard, necessary tasks and can lead to depression. While we get temporary happiness from watching videos, deep down we know we haven't been productive, which causes us to feel worse. As an introverted loner, it's easy for me to escape into the virtual world, but this offers only short-term happiness, not lasting satisfaction.*
+4. **Addiction to Devices and Lack of Self-Control :** *It’s become so easy to get a dopamine hit through technology, but it weakens our ability to focus on hard, necessary tasks and can lead to depression. While we get temporary happiness from watching videos, reels, constantly scrolling from one content to another, deep down we know we haven't been productive, which causes us to feel worse. As an introverted loner, it's easy for me to escape into the virtual world, but this offers only short-term happiness, not lasting satisfaction.*
 
 ## Understanding the Solution
 
@@ -147,8 +149,6 @@ I'm a person who relies heavily on emotions to get things done. I act based on h
 - **You can't enjoy the world and its luxuries from your coffin.** Never trade your health for money. If you focus on your health, feel better, and work better, you'll earn the money you desire. Good health is the root of prosperity.
 
 ## Conclusion
-Here’s a conclusion that ties together everything you’ve shared:
-
 In the end, this 90-day challenge is not just a temporary endeavor but a stepping stone toward becoming the person I want to be. It's not about expecting drastic changes or instant results—it's about embracing the journey of improvement and growth. Each small step I take toward better health, stronger habits, and a more focused mindset will contribute to a bigger transformation over time.
 
 There will be days when I don’t feel like doing the work, but this challenge is a reminder that real change happens when you push through discomfort and rise above your excuses. By shifting my mindset, taking control of my actions, and focusing on what I can change, I will not only build new habits but also cultivate a sense of pride and self-respect that can last beyond these 90 days.
