@@ -148,6 +148,11 @@ I'm a person who relies heavily on emotions to get things done. I act based on h
 
 - **You can't enjoy the world and its luxuries from your coffin.** Never trade your health for money. If you focus on your health, feel better, and work better, you'll earn the money you desire. Good health is the root of prosperity.
 
+## My 90-Day Challenge: Watch the Journey!
+I'm currently staying in a hostel, so I’m unsure how consistently I can make videos, but I’ll try to update my progress as much as possible. In this video, I share my 90-day challenge plan. 
+
+{% include embed/youtube.html id='4MylVjdqZNU' %}
+
 ## Conclusion
 In the end, this 90-day challenge is not just a temporary endeavor but a stepping stone toward becoming the person I want to be. It's not about expecting drastic changes or instant results—it's about embracing the journey of improvement and growth. Each small step I take toward better health, stronger habits, and a more focused mindset will contribute to a bigger transformation over time.
 
