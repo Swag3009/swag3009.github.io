@@ -3,7 +3,7 @@
 icon: fas fa-info-circle
 order: 4
 ---
-![My Picture](/assets/img/profile/profilePic.jpeg){: .right w="200" h="300" style="border-radius: 100px"}
+![My Picture](/assets/img/profile/aboutMePic.jpeg){: .right w="200" h="300" style="border-radius: 100px"}
 ### Hey there! I'm Swagatika
 A developer and creator at heart. Coding is my passion—it's how I give shape to my imagination. Beyond coding, you'll find me engrossed in books, taking serene evening walks, sketching, and immersing myself in audiobooks, podcasts, and fiction.
 
