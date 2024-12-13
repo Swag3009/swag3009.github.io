@@ -1,5 +1,5 @@
 ---
-title: My first react project - Pomodoro Timer
+title: "My first react project: Pomodoro Timer"
 description: 'From Concept to Code: How I Built My First React Project - A Pomodoro Timer'
 date: 2024-07-21
 categories: [Programming, Projects]
