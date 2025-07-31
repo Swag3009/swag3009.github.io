@@ -17,7 +17,7 @@ order: 4
 
   .bar-container {
     flex: 1;
-    background-color: var(--card-bg);
+    background-color: var(--card-bg) ;
     border-radius: 9999px;
     height: 10px;
     overflow: hidden;
