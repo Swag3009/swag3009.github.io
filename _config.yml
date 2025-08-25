@@ -1,55 +1,48 @@
-# The Site Configuration
-
-# Import the theme
 theme: jekyll-theme-chirpy
-
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+# Change to your timezone
 timezone: Asia/Kolkata
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# jekyll-seo-tag settings
 # ↓ --------------------------
 
-title: Swagatika # the main title
+title: Swagatika
 
-tagline: Digital Alchemist - Turning Logic into Reality # it will display as the sub-title
+tagline: Digital Alchemist - Turning Logic into Reality
 
-description: >- #Cipher: Unveiling the essence of literature, code, and life through insightful book summaries, coding escapades, and occasional personal musings, curated by Swagatika.
+description: >-
+  Unveiling the essence of literature, code, and life through insightful book summaries, coding escapades, and occasional personal musings, curated by Swagatika.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://swag3009.github.io/"
+url: "https://swagatika.me"
 
 github:
-  username: Swag3009 # change to your github username
+  username: Swag3009
 
 twitter:
-  username: Swag3009 # change to your twitter username
+  username: Swag3009
 
 social:
   # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Swagatika Mohapatra
-  email: mswagatika3009@gmail.com # change to your email address
+  email: mswagatika3009@gmail.com
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/Swag3009 # change to your github homepage
-    - https://twitter.com/Swag3009 # change to your twitter homepage
+    - https://github.com/Swag3009
+    - https://twitter.com/Swag3009
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: # fill in to your verification string
+google_site_verification: "CHVzkd_VZu6Kx3I17OiGwPhSToA7ZDXzj850D-_XJQ4"
 
 # ↑ --------------------------
-# The end of `jekyll-seo-tag` settingsxo
+# The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: "G-NQNW6KJTPQ"
 
 goatcounter:
   id: # fill in your Goatcounter ID
@@ -62,8 +55,8 @@ goatcounter:
 #
 # Available options:
 #
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
+#   light - Use the light color scheme
+#   dark - Use the dark color scheme
 #
 theme_mode: # [light | dark]
 
@@ -85,7 +78,7 @@ social_preview_image: "assets/img/favicons/android-chrome-384x384.png" # string,
 toc: true
 
 comments:
-  provider: giscus # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  provider: giscus # The global switch for posts comments, e.g., 'disqus'. Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -104,7 +97,6 @@ comments:
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: 1 # optional, default to the value of `1`
 
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
     enabled: # boolean, keep empty means false
@@ -120,14 +112,12 @@ pwa:
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
     deny_paths:
-      # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
+      # - "/example" # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
 
 # The base URL of your site
 baseurl: ""
-
-# ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
   syntax_highlighter: rouge
