@@ -1,0 +1,36 @@
+.skill-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-family: inherit;
+}
+
+.skill-name {
+  width: 140px;
+  font-weight: 600;
+}
+
+.bar-container {
+  flex: 1;
+  background-color: #ff8c00;
+  border-radius: 9999px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background-color: black;
+  border-radius: 9999px;
+  display: block;
+}
+
+[data-mode='dark'] {
+  .bar-container {
+    background-color: transparent;
+  }
+
+  .bar-fill {
+    background-color: #ff8c00;
+  }
+}

@@ -1,0 +1,113 @@
+a[href$="{{ include.image }}"] {
+    display: none;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+:root {
+  /* Default shadow for light mode */
+  --project-card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+[data-mode='dark'] {
+  /* Override for dark mode */
+  --project-card-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--border-color);
+  background-color: var(--card-bg);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: var(--project-card-shadow);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  margin-top: -0.5rem;
+}
+
+/* Content */
+.project-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0.6rem;
+}
+
+.project-title {
+  margin: 0;
+}
+
+.project-tags {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-tags .post-tag {
+  line-height: 1.05rem;
+  font-size: 0.9rem;
+  border-radius: 0.8rem;
+  padding: 0.3rem 0.5rem;
+  margin: 0 0.35rem 0.5rem 0;
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+  margin-top: auto;
+  justify-content: center;
+}
+
+.project-links a {
+  flex-grow: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 1px 20px;
+  background-color: #f97316;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: none !important;
+}

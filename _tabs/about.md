@@ -2,35 +2,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-<style>
-  .skill-bar {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-    font-family: inherit;
-  }
-
-  .skill-name {
-    width: 140px;
-    font-weight: 600;
-  }
-
-  .bar-container {
-    flex: 1;
-    background-color: var(--card-bg) ;
-    border-radius: 9999px;
-    height: 10px;
-    overflow: hidden;
-  }
-
-  .bar-fill {
-    height: 100%;
-    background-color: var(--text-color);
-    border-radius: 9999px;
-    display: block;
-  }
-</style>
-
 ![My Picture](/assets/img/profile/profilePic.jpg){: .right w="300" h="300" style="border-radius: 50px"}
 ### Hey there! I'm Swagatika
 I truly believe in creating value through my work. In our increasingly tech-driven world, with smartphones at the center of everything from ordering food to connecting with loved ones, I realized something profound: what better way to impact countless lives than by building software products and services? This realization led me to dedicate myself to the vast world of software development. There's a unique sense of purpose and serenity that comes with having control over the products I create.
