@@ -1,7 +1,3 @@
-a[href$="{{ include.image }}"] {
-  display: none;
-}
-
 .projects-grid {
   display: grid;
   gap: 20px;
@@ -47,23 +43,11 @@ a[href$="{{ include.image }}"] {
 
 .project-image {
   width: 100%;
-  height: 20vh;
-  overflow: hidden;
   position: relative;
-}
-
-@media (min-width: 768px) {
-  .project-image {
-    height: 16vh;
-  }
-}
-
-.project-image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid var(--border-color);
   margin-top: -0.5rem;
 }
 
