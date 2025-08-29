@@ -1,19 +1,20 @@
 ---
-title : "JavaScript Basics: Notes for Quick Revision"
+title: "JavaScript Basics: Notes for Quick Revision"
 description: A quick revision guide on JavaScript basics to help you review key concepts for coding, interviews, or quick reference.
 date: 2024-11-10
 categories: [Programming, JavaScript]
 tags: [JavaScript, Notes, Revision, reference]
 author: Swagatika
 image:
- path: "../assets/post_img/study.jpg"
- alt: JavaScript-Basics Notes
+  path: "https://res.cloudinary.com/dduot1vgo/image/upload/v1756474997/study_gyu9so.jpg"
+  alt: JavaScript-Basics Notes
 ---
+
 ## Introduction
 
 I began coding in 2021, starting with Java, where I learned only some basics. Soon after, I picked up JavaScript and created my first project—a ping pong game. Although fun, I was mostly just following along with YouTube tutorials, copying each step without truly understanding the language.
 
-Now, in 2024, I’m committed to mastering JavaScript concepts and coding independently without constantly relying on others’ code or Google. This blog marks the beginning of my journey to grasp JavaScript fully. 
+Now, in 2024, I’m committed to mastering JavaScript concepts and coding independently without constantly relying on others’ code or Google. This blog marks the beginning of my journey to grasp JavaScript fully.
 
 I’ve attempted to learn JavaScript concepts many times but struggled to retain them. My notes would get lost, I’d rarely revise, and my consistency wavered. This time, I’m making a dedicated effort to keep organized notes on GitHub and document my learning here. My goal is to have quick-reference notes, interview-ready concepts, and a reliable resource for coding. These notes serve as a personal reference for quick revisions and as a guide for others on a similar path.
 
@@ -21,8 +22,9 @@ I’ve attempted to learn JavaScript concepts many times but struggled to retain
 
 ### **let**
 
-1. It is *Block scoped*.
+1. It is _Block scoped_.
 2. Let can be updated but not re-declared.
+
    ```js
    // Updated
    let name = "Swagatika";
@@ -32,6 +34,7 @@ I’ve attempted to learn JavaScript concepts many times but struggled to retain
    let name = "Swagatika";
    let name = "Swagatika Mohapatra";
    ```
+
 3. The same variable can be declared in different blocks without throwing an error, because both instances are treated as different variables due to their different scope.
 4. **let** declarations are hoisted to the top.
 5. Unlike **var**, the **let** keyword is not initialized. If we try to use it before initialization, it will throw a **ReferenceError**.
@@ -40,26 +43,27 @@ I’ve attempted to learn JavaScript concepts many times but struggled to retain
 
 ### **const**
 
-1. It is *Block scoped*. 
+1. It is _Block scoped_.
 2. **const** declarations are hoisted to the top but are not initialized.
 3. It cannot be updated or re-declared. Therefore, it must be initialized at the time of declaration.
 4. **const** objects cannot be reassigned, but the properties of the object can be updated.
+
    ```js
    const time = {
      min: 34,
-     sec: 12
-   }
+     sec: 12,
+   };
 
    // Can't reassign the whole object
    time = {
      minutes: "thirty four",
-     seconds: "five"
-   }
+     seconds: "five",
+   };
 
    // Can update properties of the object
-   time.min = "thirty four"
+   time.min = "thirty four";
    ```
-   
+
 ## Datatype Conversion
 
 - **String Conversion**: You can convert various data types to strings using the `String()` function.
@@ -68,22 +72,22 @@ I’ve attempted to learn JavaScript concepts many times but struggled to retain
 
 ### Type Conversion Examples
 
-| **Conversion**               | **Example**                   | **Result**                     |
-|------------------------------|-------------------------------|--------------------------------|
-| **String Conversion**        | `String(123)`                 | `"123"`                        |
-|                              | `String(false)`               | `"false"`                      |
-| **Number Conversion**        | `Number("123")`               | `123`                          |
-|                              | `Number(" 10 ")`              | `10`                           |
-|                              | `Number("10.33")`             | `10.33`                        |
-|                              | `Number("10,33")`             | `NaN`                          |
-|                              | `Number("John")`              | `NaN`                          |
-| **parseInt()**               | `parseInt("10")`              | `10`                           |
-|                              | `parseInt("10.33")`           | `10`                           |
-| **parseFloat()**             | `parseFloat("10.33")`         | `10.33`                        |
-| **Boolean Conversion**       | `Boolean(0)`                  | `false`                        |
-|                              | `Boolean(1)`                  | `true`                         |
-|                              | `Boolean("")`                 | `false`                        |
-|                              | `Boolean("Hello")`            | `true`                         |---
+| **Conversion**         | **Example**           | **Result** |
+| ---------------------- | --------------------- | ---------- | --- |
+| **String Conversion**  | `String(123)`         | `"123"`    |
+|                        | `String(false)`       | `"false"`  |
+| **Number Conversion**  | `Number("123")`       | `123`      |
+|                        | `Number(" 10 ")`      | `10`       |
+|                        | `Number("10.33")`     | `10.33`    |
+|                        | `Number("10,33")`     | `NaN`      |
+|                        | `Number("John")`      | `NaN`      |
+| **parseInt()**         | `parseInt("10")`      | `10`       |
+|                        | `parseInt("10.33")`   | `10`       |
+| **parseFloat()**       | `parseFloat("10.33")` | `10.33`    |
+| **Boolean Conversion** | `Boolean(0)`          | `false`    |
+|                        | `Boolean(1)`          | `true`     |
+|                        | `Boolean("")`         | `false`    |
+|                        | `Boolean("Hello")`    | `true`     | --- |
 
 ## Date Conversion
 
@@ -103,29 +107,28 @@ I’ve attempted to learn JavaScript concepts many times but struggled to retain
 - **toLocaleTimeString()**: Returns the time as a string, formatted according to local conventions.
 - **toISOString()**: Returns a date as a string in simplified extended ISO format (UTC time).
 
-### Date Conversion Examples 
+### Date Conversion Examples
 
-| **Syntax**                          | **Example**                              | **Result**                                    |
-|-------------------------------------|------------------------------------------|----------------------------------------------|
-| `Date()`                            | `Date("2024-11-06")`                     | `"Wed Nov 06 2024 00:00:00 GMT+0000 (UTC)"`  |
-| `new Date().getTime()`              | `new Date().getTime()`                   | `1699190400000`                              |
-| `new Date().getDate()`              | `new Date().getDate()`                   | `6` (if today is the 6th)                    |
-| `new Date().getDay()`               | `new Date().getDay()`                    | `3` (if today is Wednesday)                  |
-| `new Date().getFullYear()`          | `new Date().getFullYear()`               | `2024`                                       |
-| `new Date().getHours()`             | `new Date().getHours()`                  | `14` (if current time is 2:00 PM)            |
-| `new Date().getMilliseconds()`      | `new Date().getMilliseconds()`           | `250` (if current millisecond is 250)        |
-| `new Date().getMinutes()`           | `new Date().getMinutes()`                | `30` (if current minute is 30)               |
-| `new Date().getMonth()`             | `new Date().getMonth()`                  | `10` (November, since months are zero-based) |
-| `new Date().getSeconds()`           | `new Date().getSeconds()`                | `45` (if current second is 45)               |
-| `new Date().toDateString()`         | `new Date().toDateString()`              | `"Wed Nov 06 2024"`                          |
-| `new Date().toTimeString()`         | `new Date().toTimeString()`              | `"14:30:00 GMT+0000 (UTC)"`                  |
-| `new Date().toLocaleDateString()`   | `new Date().toLocaleDateString()`        | `"11/6/2024"` (format varies by locale)      |
-| `new Date().toLocaleTimeString()`   | `new Date().toLocaleTimeString()`        | `"2:30:00 PM"` (format varies by locale)     |
-| `new Date().toISOString()`          | `new Date().toISOString()`               | `"2024-11-06T14:30:00.000Z"`                 |
+| **Syntax**                        | **Example**                       | **Result**                                   |
+| --------------------------------- | --------------------------------- | -------------------------------------------- |
+| `Date()`                          | `Date("2024-11-06")`              | `"Wed Nov 06 2024 00:00:00 GMT+0000 (UTC)"`  |
+| `new Date().getTime()`            | `new Date().getTime()`            | `1699190400000`                              |
+| `new Date().getDate()`            | `new Date().getDate()`            | `6` (if today is the 6th)                    |
+| `new Date().getDay()`             | `new Date().getDay()`             | `3` (if today is Wednesday)                  |
+| `new Date().getFullYear()`        | `new Date().getFullYear()`        | `2024`                                       |
+| `new Date().getHours()`           | `new Date().getHours()`           | `14` (if current time is 2:00 PM)            |
+| `new Date().getMilliseconds()`    | `new Date().getMilliseconds()`    | `250` (if current millisecond is 250)        |
+| `new Date().getMinutes()`         | `new Date().getMinutes()`         | `30` (if current minute is 30)               |
+| `new Date().getMonth()`           | `new Date().getMonth()`           | `10` (November, since months are zero-based) |
+| `new Date().getSeconds()`         | `new Date().getSeconds()`         | `45` (if current second is 45)               |
+| `new Date().toDateString()`       | `new Date().toDateString()`       | `"Wed Nov 06 2024"`                          |
+| `new Date().toTimeString()`       | `new Date().toTimeString()`       | `"14:30:00 GMT+0000 (UTC)"`                  |
+| `new Date().toLocaleDateString()` | `new Date().toLocaleDateString()` | `"11/6/2024"` (format varies by locale)      |
+| `new Date().toLocaleTimeString()` | `new Date().toLocaleTimeString()` | `"2:30:00 PM"` (format varies by locale)     |
+| `new Date().toISOString()`        | `new Date().toISOString()`        | `"2024-11-06T14:30:00.000Z"`                 |
 
+## String
 
-
-## String 
 In JavaScript, strings are sequences of characters used to represent text. You can work with strings using various built-in methods that allow you to manipulate and transform text efficiently.
 
 ### String Methods
@@ -153,46 +156,47 @@ In JavaScript, strings are sequences of characters used to represent text. You c
 
 ### Example
 
-| **Syntax**                            | **Example**                                    | **Result**                                        |
-|---------------------------------------|------------------------------------------------|--------------------------------------------------|
-| `string.length`                       | `"Hello".length`                               | `5`                                              |
-| `string.charAt(index)`                | `"Hello".charAt(1)`                            | `"e"`                                            |
-| `string.charCodeAt(index)`            | `"Hello".charCodeAt(1)`                        | `101` (Unicode for `e`)                          |
-| `string.at(index)`                    | `"Hello".at(1)`                                | `"e"`                                            |
-| `string[index]`                       | `"Hello"[1]`                                   | `"e"`                                            |
-| `string.slice(start, end)`             | `"Hello".slice(1, 4)`                          | `"ell"`                                          |
-| `string.substring(start, end)`        | `"Hello".substring(1, 4)`                      | `"ell"`                                          |
-| `string.substr(start, length)`        | `"Hello".substr(1, 3)`                         | `"ell"`                                          |
-| `string.toUpperCase()`                | `"Hello".toUpperCase()`                        | `"HELLO"`                                        |
-| `string.toLowerCase()`                | `"Hello".toLowerCase()`                        | `"hello"`                                        |
-| `string.concat(str1, str2)`            | `"Hello".concat(" ", "World")`                  | `"Hello World"`                                  |
-| `string.trim()`                       | `"  Hello  ".trim()`                           | `"Hello"`                                        |
-| `string.trimStart()`                  | `"  Hello".trimStart()`                        | `"Hello"`                                        |
-| `string.trimEnd()`                    | `"Hello  ".trimEnd()`                          | `"Hello"`                                        |
-| `string.padStart(targetLength, pad)`  | `"5".padStart(3, "0")`                         | `"005"`                                          |
-| `string.padEnd(targetLength, pad)`    | `"5".padEnd(3, "0")`                           | `"500"`                                          |
-| `string.repeat(count)`                | `"Hi ".repeat(3)`                              | `"Hi Hi Hi "`                                    |
-| `string.replace(oldValue, newValue)`   | `"Hello".replace("l", "r")`                     | `"Hero"`                                         |
-| `string.replaceAll(oldValue, newValue)`| `"Hello".replaceAll("l", "r")`                  | `"Heroo"`                                        |
-| `string.split(separator)`             | `"Hello World".split(" ")`                     | `["Hello", "World"]`                             |
+| **Syntax**                              | **Example**                    | **Result**              |
+| --------------------------------------- | ------------------------------ | ----------------------- |
+| `string.length`                         | `"Hello".length`               | `5`                     |
+| `string.charAt(index)`                  | `"Hello".charAt(1)`            | `"e"`                   |
+| `string.charCodeAt(index)`              | `"Hello".charCodeAt(1)`        | `101` (Unicode for `e`) |
+| `string.at(index)`                      | `"Hello".at(1)`                | `"e"`                   |
+| `string[index]`                         | `"Hello"[1]`                   | `"e"`                   |
+| `string.slice(start, end)`              | `"Hello".slice(1, 4)`          | `"ell"`                 |
+| `string.substring(start, end)`          | `"Hello".substring(1, 4)`      | `"ell"`                 |
+| `string.substr(start, length)`          | `"Hello".substr(1, 3)`         | `"ell"`                 |
+| `string.toUpperCase()`                  | `"Hello".toUpperCase()`        | `"HELLO"`               |
+| `string.toLowerCase()`                  | `"Hello".toLowerCase()`        | `"hello"`               |
+| `string.concat(str1, str2)`             | `"Hello".concat(" ", "World")` | `"Hello World"`         |
+| `string.trim()`                         | `"  Hello  ".trim()`           | `"Hello"`               |
+| `string.trimStart()`                    | `"  Hello".trimStart()`        | `"Hello"`               |
+| `string.trimEnd()`                      | `"Hello  ".trimEnd()`          | `"Hello"`               |
+| `string.padStart(targetLength, pad)`    | `"5".padStart(3, "0")`         | `"005"`                 |
+| `string.padEnd(targetLength, pad)`      | `"5".padEnd(3, "0")`           | `"500"`                 |
+| `string.repeat(count)`                  | `"Hi ".repeat(3)`              | `"Hi Hi Hi "`           |
+| `string.replace(oldValue, newValue)`    | `"Hello".replace("l", "r")`    | `"Hero"`                |
+| `string.replaceAll(oldValue, newValue)` | `"Hello".replaceAll("l", "r")` | `"Heroo"`               |
+| `string.split(separator)`               | `"Hello World".split(" ")`     | `["Hello", "World"]`    |
 
 ## Template Literal
 
 - Denoted with backticks (\`\`)
 - Allows multi-line strings.
 
-   ```js
-   let text = 
-   `The quick
-   brown fox 
-   jumps over
-   the lazy dog.`
-   ```
+  ```js
+  let text = `The quick
+  brown fox 
+  jumps over
+  the lazy dog.`;
+  ```
+
 - Allows interpolation of variables and expressions into the string. The **${}** syntax is used to embed variables and expressions inside the string. Within the placeholder, it must be an expression; if a non-expression like a function declaration is provided, it will be stringified.
   ```js
   let name = `Swagatika`;
-  let fullName = `${name} Mohapatra`
+  let fullName = `${name} Mohapatra`;
   ```
+
 ### Usage
 
 - **Generating HTML Markup**  
@@ -206,21 +210,23 @@ In JavaScript, strings are sequences of characters used to represent text. You c
   - When the tag function is called, the first argument it receives is an array of strings, which result from splitting the template literal at the interpolated parts.
   - Each interpolated value is passed to the function as additional arguments, which can be accessed using the rest parameter.
 
-   ```js
-   function tagfunc(string, ...substitution) {
-     console.log(string);
-     console.log(substitution);
-   }
+  ```js
+  function tagfunc(string, ...substitution) {
+    console.log(string);
+    console.log(substitution);
+  }
 
-   let name = `Swagatika`;
-   let beverage = `Coffee`;
-   tagfunc`Hello ${name}! Would you like to have ${beverage}`;
+  let name = `Swagatika`;
+  let beverage = `Coffee`;
+  tagfunc`Hello ${name}! Would you like to have ${beverage}`;
 
-   // Output
-   /*
-   ['Hello', '! Would you like to have', '']
-   ['Swagatika', 'C
-```
+  // Output
+  /*
+  ['Hello', '! Would you like to have', '']
+  ['Swagatika', 'C
+  ```
+
+````
 
 ## Array
 
@@ -278,41 +284,43 @@ Non-destructive array methods in JavaScript return a new array or value without 
 - **forEach** : Executes a specified function once for each array element.
   - Syntax: `array.forEach(callback(element, index, array));`
 - **for...of** : The `for...of` loop is used to iterate over each element in the array without needing to reference the index.
-  - Syntax: 
+  - Syntax:
     ```js
     for (let element of array) {
       // process element
     }
     ```
-	
+
 #### map()
 - Takes an array of values and applies a transformation to each value in the array.
 - Does not mutate the original array.
 - Creates a new array with the transformed values.
 - Syntax: `array.map(callback(element, index, array));`
-- Example: 
+- Example:
   ```js
   const arr = [1, 2, 3, 4, 5];
   const output = arr.map((num) => num += 10)
   console.log(arr); // [1, 2, 3, 4, 5]
   console.log(output); // [11, 12, 13, 14, 15]
-  ```
-
+````
 
 #### filter()
+
 - Takes an array and returns a new array with only the values that meet certain criteria.
 - Does not mutate the original array.
 - Selects a subset of data from an array based on specific conditions.
 - Syntax: `array.filter(callback(element, index, array));`
-- Example: 
+- Example:
+
 ```js
 const arr = [1, 2, 3, 4, 5];
-const output = arr.filter((num) => num % 2) // filter out odd numbers
+const output = arr.filter((num) => num % 2); // filter out odd numbers
 console.log(arr); // [1, 2, 3, 4, 5]
 console.log(output); // [1, 3, 5]
 ```
 
 #### reduce()
+
 - Iterates over an array and reduces the array's values into a single value.
 - The accumulator parameter is the single value that will be returned by the method.
 - The currentValue parameter is the item from the array, which changes in each iteration.
@@ -322,13 +330,13 @@ console.log(output); // [1, 3, 5]
   - Summarizing values into a single value.
   - Grouping similar items together.
   - Removing duplicates from an array.
-- Syntax: 
+- Syntax:
   ```js
   array.reduce((accumulator, item, index, array) => {
     // Define the process for each iteration
   }, initialAccumulatorValue);
   ```
-- Example: 
+- Example:
 
 ```js
 const array1 = [1, 2, 3, 4];
@@ -342,9 +350,10 @@ const sumWithInitial = array1.reduce(
 
 console.log(sumWithInitial);
 // Expected output: 10
-
 ```
+
 ## Objects
+
 - In JavaScript, objects help to group values with similar characteristics together, making the code more readable, organized, and manageable.
 - An object is a data type that stores collections of key-value pairs.
 - Objects can store different types of data as their values.
@@ -356,17 +365,20 @@ console.log(sumWithInitial);
 - For multi-word property names, dot notation cannot be used.
 
 ### for..in loop
+
 The `for...in` loop iterates over the enumerable properties (keys) of an object. It allows you to access each key in an object, which can then be used to retrieve the corresponding value.
 
 ### Copying Objects
-Assigning an object to another variable doesn't copy the object. Instead, it creates a reference to the same memory location. This means that both the original object and the object created by assignment are referencing the same item in memory. 
+
+Assigning an object to another variable doesn't copy the object. Instead, it creates a reference to the same memory location. This means that both the original object and the object created by assignment are referencing the same item in memory.
+
 - Example: If you modify the copied object, the original object is also modified.
 
 ```js
 let user1 = {
-	name: "Swagatika",
-	age: 21
-	}
+  name: "Swagatika",
+  age: 21,
+};
 let user2 = user1;
 console.log(user1 === user2); //true
 user2.age = 23;
@@ -374,6 +386,7 @@ console.log(user1.age); //23
 ```
 
 To properly copy an object, you can use either the **spread operator** or **`Object.assign()`** to create a shallow copy of an object.
+
 - **Spread Operator:** Creates a shallow copy of an object.
 - **`Object.assign()`**: Copies properties from one or more source objects to a target object.
   - `target_object`: The object that receives the copied properties.
@@ -382,14 +395,14 @@ To properly copy an object, you can use either the **spread operator** or **`Obj
 
 ```js
 // spread operator
-let obj1 = {...obj2};
+let obj1 = { ...obj2 };
 // object.assign()
-let obj = Object.assign(target_object, sourc_Object)
+let obj = Object.assign(target_object, sourc_Object);
 /*
 target_object -> which takes the properties copied
 source_object -> properties you want to copy
 */
-``` 
+```
 
 ## Destructuring
 
@@ -398,7 +411,9 @@ Destructuring assignment is a JavaScript expression that allows you to unpack va
 ### Object Destructuring
 
 Object destructuring is the syntax for extracting values from object properties and assigning them to variables.
+
 - Example:
+
 ```js
 const user = {
   first_name: "Swagatika",
@@ -412,8 +427,11 @@ const {
 ```
 
 ### Add Aliases
+
 An alias name can be given to destructured variables. This is useful when you want to rename the variable.
+
 - Example:
+
 ```js
 const user = {
   name: "Swagatika",
@@ -427,8 +445,11 @@ console.log(permanentAddress); // Output -> Forest Colony
 Attempting to access the variable `address` directly will result in an error.
 
 ### Nested Object Destructuring
+
 To destructure nested objects, start with the top level and go down the hierarchy until you reach the desired property.
+
 - Example:
+
 ```js
 const user = {
   name: "Alex",
@@ -444,13 +465,20 @@ const user = {
     },
   },
 };
-const { department: { address: { city } } } = user;
+const {
+  department: {
+    address: { city },
+  },
+} = user;
 console.log(city); // Output -> Bangalore
 ```
 
 ### Dynamic Property Names
+
 You can use dynamic property names when destructuring, which is helpful when the key is stored in a variable.
+
 - Example:
+
 ```js
 const user = {
   name: "Swagatika",
@@ -464,15 +492,17 @@ getValue = (key) => {
 console.log(getValue("name")); // Output -> Swagatika
 ```
 
-
 ### Destructuring in Function Parameters
+
 Destructuring can be used in function parameters to extract only the necessary properties from an object, without needing to pass the entire object and then access its properties.
+
 - Example:
+
 ```js
-const user = { 
-    name: 'Alex',
-    address: '15th Park Avenue',
-    age: 43
+const user = {
+  name: "Alex",
+  address: "15th Park Avenue",
+  age: 43,
 };
 function logDetails({ name, age }) {
   console.log(`${name} is ${age} year(s) old!`);
@@ -481,40 +511,46 @@ logDetails(user);
 ```
 
 ### Destructuring Function Return Values
+
 When a function returns an object and you only need specific properties, you can use destructuring.
+
 - Example:
+
 ```js
 const getUser = () => {
-  return { 
-    name: 'Alex',
-    address: '15th Park Avenue',
-    age: 43
+  return {
+    name: "Alex",
+    address: "15th Park Avenue",
+    age: 43,
   };
 };
 const { name, age } = getUser();
-console.log(name, age); 
+console.log(name, age);
 ```
 
 ### Destructuring in Loops
+
 You can use destructuring within a `for-of` loop to extract specific values from each object in an array.
+
 - Example:
+
 ```js
 const users = [
-  { 
-    name: 'Alex',
-    address: '15th Park Avenue',
-    age: 43
+  {
+    name: "Alex",
+    address: "15th Park Avenue",
+    age: 43,
   },
-  { 
-    name: 'Bob',
-    address: 'Canada',
-    age: 53
+  {
+    name: "Bob",
+    address: "Canada",
+    age: 53,
   },
-  { 
-    name: 'Carl',
-    address: 'Bangalore',
-    age: 26
-  }
+  {
+    name: "Carl",
+    address: "Bangalore",
+    age: 26,
+  },
 ];
 for (let { name, age } of users) {
   console.log(`${name} is ${age} years old!`);
@@ -522,6 +558,7 @@ for (let { name, age } of users) {
 ```
 
 ### Console Object Destructuring
+
 You can destructure properties of the console object, which is a built-in object in JavaScript, to make logging more concise.
 
 - Example:
@@ -529,23 +566,26 @@ You can destructure properties of the console object, which is a built-in object
 ```js
 const { log, warn, error } = console;
 
-log('I log into the browser console');
-warn('I am a warning');
-error('I am an error');
+log("I log into the browser console");
+warn("I am a warning");
+error("I am an error");
 ```
 
 ## Spread Operator
+
 The spread operator allows you to expand elements of an iterable (like an array or object) into individual elements. It can also be used to clone objects, add properties to them, and merge multiple objects.
+
 ### Create Clone of an Object
+
 The spread operator performs a shallow copy of an object, meaning nested objects are not cloned, and they still reference the same memory.
 
-- Example: 
+- Example:
 
 ```js
-const user = { 
-    name: 'Alex',
-    address: '15th Park Avenue',
-    age: 43
+const user = {
+  name: "Alex",
+  address: "15th Park Avenue",
+  age: 43,
 };
 
 const clone = { ...user };
@@ -553,18 +593,18 @@ console.log(clone); // Output -> {name: "Alex", address: "15th Park Avenue", age
 
 clone === user; // Output -> false
 ```
- 
 
 ### Add Properties to Objects
+
 You can use the spread syntax to add new properties to a cloned object, ensuring the original object remains unchanged.
 
-- Example: 
+- Example:
 
 ```js
-const user = { 
-    name: 'Alex',
-    address: '15th Park Avenue',
-    age: 43
+const user = {
+  name: "Alex",
+  address: "15th Park Avenue",
+  age: 43,
 };
 
 const updatedUser = { ...user, salary: 12345 };
@@ -572,71 +612,76 @@ console.log(updatedUser); // Output -> {name: "Alex", address: "15th Park Avenue
 
 console.log(user); // Output -> {name: "Alex", address: "15th Park Avenue", age: 43}
 ```
- 
+
 ### Update Nested Objects
+
 You can also update properties of nested objects using the spread operator. This creates a shallow copy of the object, while updating the necessary nested properties.
 
-- Example: 
+- Example:
 
 ```js
-const user = { 
-    name: 'Alex',
-    address: '15th Park Avenue',
-    age: 43,
-    department: {
-        name: 'Sales',
-        shift: 'Morning',
-        address: {
-            city: 'Bangalore',
-            street: '7th Residency Rd',
-            zip: 560001
-        }
-    }
+const user = {
+  name: "Alex",
+  address: "15th Park Avenue",
+  age: 43,
+  department: {
+    name: "Sales",
+    shift: "Morning",
+    address: {
+      city: "Bangalore",
+      street: "7th Residency Rd",
+      zip: 560001,
+    },
+  },
 };
 
 const updated = {
-    ...user, 
-    department: {
-        ...user.department, 
-        number: 7
-    }
+  ...user,
+  department: {
+    ...user.department,
+    number: 7,
+  },
 };
 
 console.log(updated);
 ```
- 
+
 ### Combine Two Objects
+
 You can merge two objects using the spread operator. This performs a shallow merge, where properties of the second object will overwrite those of the first object if they have the same key.
 
-- Syntax: 
+- Syntax:
 
 ```js
 const merged = { ...obj1, ...obj2 };
 ```
- 
+
 ## Rest Operator
+
 The rest operator gathers elements into an object, usually used in destructuring to collect the remaining properties that are not explicitly extracted.
 
-- Example: 
+- Example:
 
 ```js
-const user = { 
-    name: 'Alex',
-    address: '15th Park Avenue',
-    age: 43
+const user = {
+  name: "Alex",
+  address: "15th Park Avenue",
+  age: 43,
 };
 
 const { age, ...rest } = user;
-console.log(age);  // Output -> 43
+console.log(age); // Output -> 43
 console.log(rest); // Output -> {name: "Alex", address: "15th Park Avenue"}
 ```
- 
+
 ## Function
-A function is a block of code designed to perform a specific task. Functions are used to promote reusability, improve readability, simplify testing, provide abstraction, enable collaboration, and support modularization. 
+
+A function is a block of code designed to perform a specific task. Functions are used to promote reusability, improve readability, simplify testing, provide abstraction, enable collaboration, and support modularization.
 
 - In JavaScript, functions are **first-class citizens**, meaning they can be treated as values and passed around like any other variable.
 
 ### Parameters vs Arguments
+
 - **Parameters**: These are the references to values that will be used in a function.
 - **Arguments**: These are the actual values passed to the function when it is called.
 
@@ -645,17 +690,17 @@ function add(num1, num2) {
   return num1 + num2;
 }
 // Here, num1 and num2 are parameters.
-add(2, 3); 
+add(2, 3);
 // Here, 2 and 3 are arguments.
-
 ```
 
 ### Anonymous Function
+
 An **anonymous function** is a function that does not have a name. It is typically used for specific tasks, and it is often assigned to variables or passed as arguments to other functions. It is particularly useful when you do not need to reuse the function outside its immediate context.
 
 - Anonymous functions are not accessible after their initial creation, unless assigned to a variable.
 - The parentheses `()` around the function body are required to treat the function as an expression, which returns a function object.
-- Syntax: 
+- Syntax:
 
 ```js
 // Anonymous function with the function keyword
@@ -666,13 +711,14 @@ An **anonymous function** is a function that does not have a name. It is typical
 // Anonymous arrow function
 () => {
   // Statements
-}
-
+};
 ```
 
 ### Immediately Invoked Function Expression (IIFE)
+
 An **IIFE** (Immediately Invoked Function Expression) is a function that is invoked immediately after it is defined. It is commonly used to create a local scope for variables, preventing them from polluting the global scope.
-- Syntax: 
+
+- Syntax:
 
 ```js
 (function () {
@@ -682,16 +728,16 @@ An **IIFE** (Immediately Invoked Function Expression) is a function that is invo
 (() => {
   // Statement
 })();
-
 ```
 
 ### Arrow Function
+
 Arrow functions provide a shorter syntax for defining functions. However, they have some important differences from traditional functions:
 
 - Arrow functions do **not** have their own `this`, `arguments`, or `super`. Therefore, they should **not** be used as methods.
 - Arrow functions **cannot** be used as constructors, and calling them with `new` throws a `TypeError`.
 - Arrow functions cannot use `yield` and cannot be defined as generator functions.
-- Syntax: 
+- Syntax:
 
 ```js
 () => expression
@@ -718,8 +764,8 @@ param => {
 ```
 
 - **Rest parameters**, **default parameters**, and **destructuring** can be used in arrow functions and always require parentheses.
-  - Example: 
-  
+  - Example:
+
 ```js
 (a, b, ...r) => expression
 (a = 400, b = 20, c) => expression
@@ -729,42 +775,44 @@ param => {
 ```
 
 - Arrow functions can be `async` by prefixing the function with the `async` keyword.
-
-	- Syntax: 
+  - Syntax:
 
 ```js
-async param => expression
+async (param) => expression;
 async (param1, param2, ...paramN) => {
-  statements
-}
-
+  statements;
+};
 ```
 
 ### 'this' in Arrow Functions
+
 - Arrow functions **do not** bind their own `this`. Instead, they inherit `this` from the **parent scope**. This behavior is known as "lexical scoping."
 
 ### Higher Order Function
+
 A **higher-order function** is a function that:
+
 - Takes one or more functions as arguments, or
 - Returns a function as its result.
-- Example: 
+- Example:
 
 ```js
 function greeting(message) {
-  return function(name) {
+  return function (name) {
     console.log(`${message}, ${name}!`);
   };
 }
 
 const greet = greeting("Hello");
 greet("John"); // Outputs: "Hello, John!"
-
 ```
 
 ## Closure
+
 A **closure** is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.
 
 ### How Closures Work
+
 1. When a function is created inside another function, it has access to the variables in the outer function's scope due to **lexical scoping**.
 2. **Scope Chain**: In closures, JavaScript looks through the nested scope for variable values:
    - The inner function first checks its own scope.
@@ -772,14 +820,15 @@ A **closure** is the combination of a function bundled together (enclosed) with 
 3. **Lexical Scope** means variables are accessed based on where functions are declared, not where they are called.
 
 ### Example
+
 ```js
 function outer() {
-  const outerVar = 'I am from outer function';
-  
+  const outerVar = "I am from outer function";
+
   function inner() {
     console.log(outerVar); // Inner function has access to outer function's variable
   }
-  
+
   return inner;
 }
 
