@@ -30,7 +30,6 @@ In my early days of using the Pomodoro Technique, I discovered a simple [Pomodor
 
 ![to do list](https://res.cloudinary.com/dduot1vgo/image/upload/v1756474993/pomodoro_to_do_list_yfvkur.jpg){: .right w="200"}
 
-
 ### How I Laid the Groundwork
 
 According to the 10/90 rule, investing the first 10% of your time in planning and organizing can save you up to 90% of the time during execution. I find this approach highly efficient, as it helps me visualize the project’s functionality and determine which concepts to implement. I began by breaking down the project into manageable features and organizing them by priority. I sketched a simple structure on paper to better visualize the project. By planning everything out before writing a single line of code, I ensured a clear and focused development process.

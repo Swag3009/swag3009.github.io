@@ -65,7 +65,8 @@ theme_mode: # [light | dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: "https://res.cloudinary.com/dduot1vgo/image/upload/"
+
 
 cloudinary_url: "https://res.cloudinary.com/dduot1vgo/image/upload/"
 # the avatar on sidebar, support local or CORS resources
