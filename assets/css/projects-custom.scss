@@ -1,5 +1,5 @@
 a[href$="{{ include.image }}"] {
-    display: none;
+  display: none;
 }
 
 .projects-grid {
@@ -22,14 +22,13 @@ a[href$="{{ include.image }}"] {
 }
 
 :root {
-  /* Default shadow for light mode */
   --project-card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 [data-mode='dark'] {
-  /* Override for dark mode */
   --project-card-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -48,9 +47,15 @@ a[href$="{{ include.image }}"] {
 
 .project-image {
   width: 100%;
-  height: 170px;
+  height: 20vh;
   overflow: hidden;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .project-image {
+    height: 16vh;
+  }
 }
 
 .project-image img {
@@ -62,7 +67,6 @@ a[href$="{{ include.image }}"] {
   margin-top: -0.5rem;
 }
 
-/* Content */
 .project-content {
   display: flex;
   flex-direction: column;

@@ -67,6 +67,7 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 img_cdn:
 
+cloudinary_url: "https://res.cloudinary.com/dduot1vgo/image/upload/"
 # the avatar on sidebar, support local or CORS resources
 avatar: "assets/img/profile/profilePic.jpg"
 
