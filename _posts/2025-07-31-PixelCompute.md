@@ -6,8 +6,8 @@ categories: [Career Journey, Startups & Culture]
 tags: [PixelCompute, Internship, Personal Journey, Learning, Coding]
 author: Swagatika
 image:
-  path: "https://res.cloudinary.com/dduot1vgo/image/upload/v1756474991/office_o691ku.jpg"
-  alt: Pixel Compute
+    path: "https://res.cloudinary.com/dduot1vgo/image/upload/v1756474991/office_o691ku.jpg"
+    alt: Pixel Compute
 ---
 
 ## Introduction
@@ -158,7 +158,7 @@ I already felt underqualified, especially knowing I didn’t clear the DSA round
 
 On top of that, the work environment was unstable, people were getting terminated regularly. During my three-month internship, I saw at least 20 people getting terminated. That kept me in constant fear, always thinking I’d be next. And without realizing it, I started manifesting that fear.
 
-By the time I realized this negativity was destroying my performance, it was too late. I had stopped focusing on learning my only goal became finishing things. Fear of losing, fear of missing out, fear of not being enough, it all took over.
+By the time I realized this negativity was destroying my performance, it was too late. I had stopped focusing on learning, my only goal became finishing things. Fear of losing, fear of missing out, fear of not being enough, it all took over.
 
 And my body responded. My allergy spiraled out of control. I was again going through the same pain I had in my first year when I was first diagnosed with chronic urticaria. It felt like I had returned to square one.
 
@@ -176,13 +176,13 @@ But I still wanted to try. I reflected on my habit of missing deadlines, my lack
 
 And then, the ultimate realization hit me.
 
-During our college break, my friends and I took a trip to Sambalpur for semester registration. That’s when we got an email from our boss regarding our performance and mentionin my PTO chances were down to 50%.
+During our college break, my friends and I took a trip to Sambalpur for semester registration. That’s when we got an email from our boss regarding our performance and mentioning my PTO chances were down to 50%.
 
 That’s when my dear friend Pradipta decided to resign (later he changed his mind). But I was still hopeful, until the travel pushed my body to its limits. My urticaria became uncontrollable. Even the medicines stopped working. After returning from Sambalpur, I was on a plain diet of over-boiled rice for three days.
 
 And then, for another college process, I had to go back to Sambalpur again. And yes, I missed the deadline again.
 
-By that point, I knew nothing could justify my missed deadlines anymore. Everyone else was doing great, without the stress I was drowning in. And I was underperforming constantly.
+By that point, I knew nothing could justify my missed deadlines anymore. Everyone else was doing great, without the stress while I was drowning in and was underperforming constantly.
 
 I remembered Suman explaining the kind of value the company expects from us, and I had to admit to myself: I wasn’t delivering that value. My goal had always been to become an asset to the company, not a liability. That’s why I was working so hard. But what was I doing? Repeatedly asking for opportunities without proving myself. It started feeling like begging and I hated seeing myself like that. I didn’t want to be a beggar. I wanted to be an achiever.
 
@@ -190,7 +190,7 @@ That’s when I decided I would quit right after completing my remaining project
 
 But fate had other plans.
 
-After returning from Sambalpur again for college admission work, my allergy flared up uncontrollably. It didn’t even need a trigger anymore. I was getting reactions while just sitting still. I had to take more PTO, call my mother urgently, and visit the doctor again. And the fun fact? I was still working.
+After returning from Sambalpur again for college admission work, my allergy flared up uncontrollably. It didn’t even need a trigger anymore. I was getting reactions while just sitting still. I had to take more PTO, call my mother urgently, and visit the doctor again. And the fun fact? Lying on bed I was still working.
 
 But after a final conversation with my mother, I knew, it was time to step away. Time to work on myself and fix the things that needed fixing.
 
@@ -208,7 +208,7 @@ You learn the most in failure, that leads to success. Growth happens only outsid
 
 - My failures came largely from negative self-talk and a lack of belief in myself. That mindset shaped my actions, and those actions led to the results I got. But it’s time to change all of that, starting with me.
 
-- Another thing I’ve learned: other people’s opinions should not have the power to shake me so deeply that I stop functioning. That’s like handing over the control panel of your life to the outside world. Constructive criticism is valuable, yes but it should push you toward growth, not drag you into self-doubt Being emotionally neutral to opinions, neither inflated by praise nor crushed by criticism, is a strength I want to build.
+- Another thing I’ve learned: other people’s opinions should not have the power to shake me so deeply that I stop functioning. That’s like handing over the control panel of your life to the outside world. Constructive criticism is valuable, yes but it should push you toward growth, not drag you into self-doubt. Being emotionally neutral to opinions, neither inflated by praise nor crushed by criticism, is a strength I want to build.
 
 ## Conclusion
 
