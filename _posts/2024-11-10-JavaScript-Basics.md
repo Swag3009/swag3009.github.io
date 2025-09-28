@@ -71,7 +71,7 @@ I’ve attempted to learn JavaScript concepts many times but struggled to retain
 ### Type Conversion Examples
 
 | **Conversion**         | **Example**           | **Result** |
-| ---------------------- | --------------------- | ---------- | --- |
+| ---------------------- | --------------------- | ---------- |
 | **String Conversion**  | `String(123)`         | `"123"`    |
 |                        | `String(false)`       | `"false"`  |
 | **Number Conversion**  | `Number("123")`       | `123`      |
@@ -85,7 +85,7 @@ I’ve attempted to learn JavaScript concepts many times but struggled to retain
 | **Boolean Conversion** | `Boolean(0)`          | `false`    |
 |                        | `Boolean(1)`          | `true`     |
 |                        | `Boolean("")`         | `false`    |
-|                        | `Boolean("Hello")`    | `true`     | --- |
+|                        | `Boolean("Hello")`    | `true`     |
 
 ## Date Conversion
 
