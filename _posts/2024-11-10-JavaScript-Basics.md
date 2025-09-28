@@ -39,8 +39,6 @@ I’ve attempted to learn JavaScript concepts many times but struggled to retain
 4. **let** declarations are hoisted to the top.
 5. Unlike **var**, the **let** keyword is not initialized. If we try to use it before initialization, it will throw a **ReferenceError**.
 
----
-
 ### **const**
 
 1. It is _Block scoped_.
@@ -223,10 +221,8 @@ In JavaScript, strings are sequences of characters used to represent text. You c
   // Output
   /*
   ['Hello', '! Would you like to have', '']
-  ['Swagatika', 'C
+  ['Swagatika', 'C']
   ```
-
-````
 
 ## Array
 
@@ -292,6 +288,7 @@ Non-destructive array methods in JavaScript return a new array or value without 
     ```
 
 #### map()
+
 - Takes an array of values and applies a transformation to each value in the array.
 - Does not mutate the original array.
 - Creates a new array with the transformed values.
@@ -299,10 +296,10 @@ Non-destructive array methods in JavaScript return a new array or value without 
 - Example:
   ```js
   const arr = [1, 2, 3, 4, 5];
-  const output = arr.map((num) => num += 10)
+  const output = arr.map((num) => (num += 10));
   console.log(arr); // [1, 2, 3, 4, 5]
   console.log(output); // [11, 12, 13, 14, 15]
-````
+  ```
 
 #### filter()
 
