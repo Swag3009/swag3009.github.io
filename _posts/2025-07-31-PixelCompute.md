@@ -6,8 +6,8 @@ categories: [Career Journey, Startups & Culture]
 tags: [PixelCompute, Internship, Personal Journey, Learning, Coding]
 author: Swagatika
 image:
-    path: "https://res.cloudinary.com/dduot1vgo/image/upload/v1756474991/office_o691ku.jpg"
-    alt: Pixel Compute
+  path: "https://res.cloudinary.com/dduot1vgo/image/upload/v1759058675/PixelCompute_mqvu3m.jpg"
+  alt: Pixel Compute
 ---
 
 ## Introduction
