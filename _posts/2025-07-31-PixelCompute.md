@@ -178,7 +178,7 @@ And then, the ultimate realization hit me.
 
 During our college break, my friends and I took a trip to Sambalpur for semester registration. That’s when we got an email from our boss regarding our performance and mentioning my PTO chances were down to 50%.
 
-That’s when my dear friend Pradipta decided to resign (later he changed his mind). But I was still hopeful, until the travel pushed my body to its limits. My urticaria became uncontrollable. Even the medicines stopped working. After returning from Sambalpur, I was on a plain diet of over-boiled rice for three days.
+That’s when my dear friend Pradipta decided to resign (Later, he changed his mind, but even after getting the PPO, he became so exhausted that by the end of September, he quit). But I was still hopeful, until the travel pushed my body to its limits. My urticaria became uncontrollable. Even the medicines stopped working. After returning from Sambalpur, I was on a plain diet of over-boiled rice for three days.
 
 And then, for another college process, I had to go back to Sambalpur again. And yes, I missed the deadline again.
 
