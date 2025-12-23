@@ -109,46 +109,55 @@ This is what I wrote instead...
 
 In this world, everything has some time limit for their existence
 And your life is like a train
-Some people sit on the train, and go away when their destination comes
+Some people sit on the train, and go away when their destination come
 The train never attach itself with it’s passengers
 Why are you attaching yourself with the people and things in your life
 Let it go
+
 I can understand the urge you are feeling to stop
-Stop that one person from going
+Stop that one person from leaving
 The idea of him not there for you, haunts you
 The distance is painful
 But he is saying “I want to go.”
 Hence let him go
+
 I know you want to ask him to stop,
-Ask him to say wait for one more day
+Ask him to stay, wait for one more day
 For some more minutes
 The bye is hurting you
 But let him go
-When he doesn’t want to listen, don’t tell him the hurricane inside you
-When he wants to walk away let him
+
+When he doesn’t want to listen,
+Don’t tell him the hurricane inside you
+When he wants to walk away, let him
 I know it’s hard but free yourself
 From this hurtful attachment
 And let him go
+
 No bitter feelings, not resentment
 Simply smile, wish him the best
 Be happy for the new journey he is beginning
 Happily let him go
+
 Don’t think for a second, don’t think for a moment
 Don’t think twice
 When someone wants to cut the ties with you
 When someone don’t want your presence in their life
 When you mean nothing to them anymore
 Let them go
+
 Even if you mean a lot to them,
 But you are stopping them from their happy life
 If your presence starts making them feel like a burden for their growth
 Let them go
+
 Don’t cry, don’t feel bad, don’t miss,
 Don’t secretly wish to meet them once again in your life time
 When they want to go
 Smiling cut all the ties, feel a warmth of happiness
 Wishing the best, without having any bitter feelings
-Just let them go….
+Just let them go...
+
 It’s not about letting them go physically
 It’s about  being fine with the fact that they are not there
 It’s about making peace with fact
